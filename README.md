@@ -2,7 +2,7 @@
 
 > **Never be late for meetings again!** GoNow uses Kiro AI to create Apple Watch alarms based on real-time navigation data. Built entirely through AI conversations - zero manual coding required!
 
-![GoNow Demo](Screenshots/macOS_GoNow_Desktop.png)
+![GoNow Demo](<img width="1037" height="844" alt="Kiro thumbnail" src="https://github.com/user-attachments/assets/506ca7e3-28c9-4a9a-89a1-e2ac8ff28287" />)
 
 ## 🏆 **Kiro AI Hackathon Winner - COMPLETE ECOSYSTEM**
 
