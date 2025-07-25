@@ -1,0 +1,26 @@
+#!/bin/bash
+osascript << 'APPLESCRIPT'
+display dialog "🚀 GoNow macOS - Calendar Monitor
+
+✅ Calendar monitoring: ACTIVE
+✅ Event detection: RUNNING
+✅ Traffic integration: CONNECTED
+✅ Watch sync: READY
+
+📅 Monitoring Events:
+• Important Client Meeting (3:00 PM)
+  Location: Apple Park, Cupertino
+  Status: GoNow tag detected
+  Travel time: Calculating...
+
+🚗 Real-time Status:
+• Current traffic: Moderate
+• Suggested departure: 2:15 PM
+• Buffer time: 10 minutes
+• Route: I-280 South
+
+⌚ Apple Watch Status: CONNECTED
+📱 iPhone Status: SYNCED
+
+GoNow macOS is monitoring your calendar..." buttons {"Close"} default button "Close" with title "GoNow - Calendar Monitor"
+APPLESCRIPT

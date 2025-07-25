@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1000001 /* GoNow_macOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000 /* GoNow_macOSApp.swift */; };
+		A1000003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000002 /* ContentView.swift */; };
+		A1000011 /* GoNow_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000010 /* GoNow_iOSApp.swift */; };
+		A1000013 /* iOSContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000012 /* iOSContentView.swift */; };
+		A1000021 /* GoNow_watchOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000020 /* GoNow_watchOSApp.swift */; };
+		A1000023 /* WatchContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000022 /* WatchContentView.swift */; };
+		A1000031 /* CalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000030 /* CalendarManager.swift */; };
+		A1000032 /* CalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000030 /* CalendarManager.swift */; };
+		A1000033 /* CalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000030 /* CalendarManager.swift */; };
+		A1000041 /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000040 /* NavigationManager.swift */; };
+		A1000042 /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000040 /* NavigationManager.swift */; };
+		A1000051 /* AlarmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000050 /* AlarmManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1000000 /* GoNow_macOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoNow_macOSApp.swift; sourceTree = "<group>"; };
+		A1000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1000004 /* GoNow_macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoNow_macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1000010 /* GoNow_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoNow_iOSApp.swift; sourceTree = "<group>"; };
+		A1000012 /* iOSContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSContentView.swift; sourceTree = "<group>"; };
+		A1000014 /* GoNow_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoNow_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1000020 /* GoNow_watchOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoNow_watchOSApp.swift; sourceTree = "<group>"; };
+		A1000022 /* WatchContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchContentView.swift; sourceTree = "<group>"; };
+		A1000024 /* GoNow_watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoNow_watchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1000030 /* CalendarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarManager.swift; sourceTree = "<group>"; };
+		A1000040 /* NavigationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationManager.swift; sourceTree = "<group>"; };
+		A1000050 /* AlarmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		A1000100 = {
+			isa = PBXGroup;
+			children = (
+				A1000101 /* GoNow_macOS */,
+				A1000102 /* GoNow_iOS */,
+				A1000103 /* GoNow_watchOS */,
+				A1000104 /* GoNow_Shared */,
+				A1000105 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1000101 /* GoNow_macOS */ = {
+			isa = PBXGroup;
+			children = (
+				A1000000 /* GoNow_macOSApp.swift */,
+				A1000002 /* ContentView.swift */,
+			);
+			path = GoNow_macOS;
+			sourceTree = "<group>";
+		};
+		A1000102 /* GoNow_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A1000010 /* GoNow_iOSApp.swift */,
+				A1000012 /* iOSContentView.swift */,
+			);
+			path = GoNow_iOS;
+			sourceTree = "<group>";
+		};
+		A1000103 /* GoNow_watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				A1000020 /* GoNow_watchOSApp.swift */,
+				A1000022 /* WatchContentView.swift */,
+			);
+			path = GoNow_watchOS;
+			sourceTree = "<group>";
+		};
+		A1000104 /* GoNow_Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A1000030 /* CalendarManager.swift */,
+				A1000040 /* NavigationManager.swift */,
+				A1000050 /* AlarmManager.swift */,
+			);
+			path = GoNow_Shared;
+			sourceTree = "<group>";
+		};
+		A1000105 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1000004 /* GoNow_macOS.app */,
+				A1000014 /* GoNow_iOS.app */,
+				A1000024 /* GoNow_watchOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1000200 /* GoNow_macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1000210 /* Build configuration list for PBXNativeTarget "GoNow_macOS" */;
+			buildPhases = (
+				A1000201 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoNow_macOS;
+			productName = GoNow_macOS;
+			productReference = A1000004 /* GoNow_macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1000300 /* GoNow_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1000310 /* Build configuration list for PBXNativeTarget "GoNow_iOS" */;
+			buildPhases = (
+				A1000301 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoNow_iOS;
+			productName = GoNow_iOS;
+			productReference = A1000014 /* GoNow_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1000400 /* GoNow_watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1000410 /* Build configuration list for PBXNativeTarget "GoNow_watchOS" */;
+			buildPhases = (
+				A1000401 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoNow_watchOS;
+			productName = GoNow_watchOS;
+			productReference = A1000024 /* GoNow_watchOS.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1000500 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A1000200 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					A1000300 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					A1000400 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = A1000510 /* Build configuration list for PBXProject "GoNow_Project" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A1000100;
+			productRefGroup = A1000105 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1000200 /* GoNow_macOS */,
+				A1000300 /* GoNow_iOS */,
+				A1000400 /* GoNow_watchOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1000201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000001 /* GoNow_macOSApp.swift in Sources */,
+				A1000003 /* ContentView.swift in Sources */,
+				A1000031 /* CalendarManager.swift in Sources */,
+				A1000041 /* NavigationManager.swift in Sources */,
+				A1000051 /* AlarmManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1000301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000011 /* GoNow_iOSApp.swift in Sources */,
+				A1000013 /* iOSContentView.swift in Sources */,
+				A1000032 /* CalendarManager.swift in Sources */,
+				A1000042 /* NavigationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1000401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000021 /* GoNow_watchOSApp.swift in Sources */,
+				A1000023 /* WatchContentView.swift in Sources */,
+				A1000033 /* CalendarManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1000211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUNDLE_IDENTIFIER = com.gonow.macos;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "GoNow needs calendar access to monitor events tagged with GoNow";
+				INFOPLIST_KEY_NSLocationUsageDescription = "GoNow needs location access to calculate travel time";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gonow.macos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A1000212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUNDLE_IDENTIFIER = com.gonow.macos;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "GoNow needs calendar access to monitor events tagged with GoNow";
+				INFOPLIST_KEY_NSLocationUsageDescription = "GoNow needs location access to calculate travel time";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gonow.macos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A1000311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUNDLE_IDENTIFIER = com.gonow.ios;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "GoNow needs calendar access to monitor events tagged with GoNow";
+				INFOPLIST_KEY_NSLocationUsageDescription = "GoNow needs location access to calculate travel time";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gonow.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A1000312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUNDLE_IDENTIFIER = com.gonow.ios;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "GoNow needs calendar access to monitor events tagged with GoNow";
+				INFOPLIST_KEY_NSLocationUsageDescription = "GoNow needs location access to calculate travel time";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gonow.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A1000411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUNDLE_IDENTIFIER = com.gonow.watchos;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gonow.watchos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		A1000412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUNDLE_IDENTIFIER = com.gonow.watchos;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gonow.watchos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		A1000511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1000512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1000210 /* Build configuration list for PBXNativeTarget "GoNow_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1000211 /* Debug */,
+				A1000212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1000310 /* Build configuration list for PBXNativeTarget "GoNow_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1000311 /* Debug */,
+				A1000312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1000410 /* Build configuration list for PBXNativeTarget "GoNow_watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1000411 /* Debug */,
+				A1000412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1000510 /* Build configuration list for PBXProject "GoNow_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1000511 /* Debug */,
+				A1000512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1000500 /* Project object */;
+}
